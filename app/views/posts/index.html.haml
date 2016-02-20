@@ -1,2 +1,5 @@
-%p#intro
-	Hello
+- @posts.each do |post|
+	.post
+		.post_content
+			.title
+				%h2= link_to post.title, post
