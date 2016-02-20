@@ -1,3 +1,5 @@
+.post_image_description
+	= image_tag @post.image.url(:medium)
 %h1= @post.title
 %p= @post.user.name
 %p= @post.link
