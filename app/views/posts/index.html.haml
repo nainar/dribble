@@ -5,3 +5,6 @@
 		.post_content
 			.title
 				%h2= link_to post.title, post
+				%span
+					%i.fa.fa-comments-o
+						= post.comments.count
